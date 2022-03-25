@@ -15,3 +15,6 @@ Completed next 5 questions of array from love babbar sheet(16-20).
 
 Day-5:
 Completed next 5 questions of array from love babbar sheet(21-25).
+
+Day-6:
+Completed next 5 questions of array from love babbar sheet(26-30).
