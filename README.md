@@ -29,3 +29,6 @@ TOPIC: MATRIX
 Day-8:
 Completed next 5 questions of matrix from love babbar sheet(36-40).
 
+Day-9:
+Revised array and matrix done till date.
+
