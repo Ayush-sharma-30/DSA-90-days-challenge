@@ -32,3 +32,6 @@ Completed next 5 questions of matrix from love babbar sheet(36-40).
 Day-9:
 Revised array and matrix done till date.
 
+Day-10:
+Completed next 6 questions of matrix from love babbar sheet(41-46).
+
