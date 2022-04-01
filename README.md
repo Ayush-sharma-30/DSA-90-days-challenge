@@ -42,4 +42,7 @@ TOPIC: STRINGS
 Day-11:
 Completed first 5 questions of string from love babbar sheet(47-51).
 
+Day-12:
+Revised array, matrix and string done till date.
+
 
