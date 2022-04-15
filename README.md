@@ -94,7 +94,7 @@ Completed next 5 questions of searching and sorting from love babbar sheet(118-1
 
 TOPIC: LINKED LIST
 Day-27:
-Completed next 5 questions of linked list from love babbar sheet(123-127).
+Completed first 5 questions of linked list from love babbar sheet(123-127).
 
 
 
