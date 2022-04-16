@@ -1,0 +1,78 @@
+import java.util.*;
+
+class FindMinCost
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t > 0)
+		{
+			int n = sc.nextInt();
+			int m = sc.nextInt();
+			int arr[][] = new int[n][m];
+			for(int i=0; i<n; i++)
+			{
+				for(int j=0; j<m; j++ )
+				{
+					arr[i][j] = sc.nextInt();
+				}
+			}
+			System.out.println(new Solution().maxArea(arr, n, m));
+		t--;
+		}
+	}
+}// } Driver Code Ends
+
+
+/*Complete the function given below*/
+class Solution {
+    public int maxArea(int M[][], int n, int m) {
+        // add code here.
+        int[] curRow=M[0];
+       int maxAns= histogram(curRow);
+       for(int i=1;i<M.length;i++){
+           for(int j=0;j<M[0].length;j++){
+               if(M[i][j]==1)
+               curRow[j]+=1;
+               else
+               curRow[j]=0;
+           }
+           int curAns=histogram(curRow);
+           maxAns=Math.max(curAns,maxAns);
+       }return maxAns;
+    }
+    
+    public int histogram(int[] a){
+        int maxAns=0;
+        int[] ps=previousSmaller(a);
+        int[] ns=nextSmaller(a);
+        for(int i=0;i<a.length;i++){
+            int cur=(ns[i]-ps[i]-1)*a[i];
+            maxAns=Math.max(maxAns,cur);
+        }return maxAns;
+    }
+    
+    public int[] previousSmaller(int a[]){
+        Stack<Integer> s=new Stack<>();
+        int[] ps=new int[a.length];
+        for(int i=0;i<a.length;i++){
+            while(!s.isEmpty() && a[s.peek()]>=a[i]) s.pop();
+            if(s.isEmpty()) ps[i]=-1;
+            else ps[i]=s.peek();
+            s.push(i);
+        }return ps;
+    }
+    
+    public int[] nextSmaller(int a[]){
+        Stack<Integer> s=new Stack<>();
+        int[] ns=new int[a.length];
+        for(int i=a.length-1;i>=0;i--){
+            while(!s.isEmpty() && a[s.peek()]>=a[i]) s.pop();
+            if(s.isEmpty()) ns[i]=a.length;
+            else ns[i]=s.peek();
+            s.push(i);
+        }return ns;
+    }
+    
+}
