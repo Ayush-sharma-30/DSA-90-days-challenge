@@ -105,5 +105,8 @@ Completed next 5 questions of linked list from love babbar sheet(133-137).
 Day-30:
 Completed next 5 questions of linked list from love babbar sheet(138-142).
 
+Day-31:
+Completed next 5 questions of linked list from love babbar sheet(143-147).
+
 
 
