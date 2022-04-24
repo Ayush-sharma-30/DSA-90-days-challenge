@@ -119,6 +119,9 @@ Completed next 5 questions of linked list from love babbar sheet(158-161).
 
 ::LINKED LIST COMPLETED::
 
+Day-32:
+Completed first 5 questions of binary tree from love babbar sheet(162-167).
+
 
 
 
