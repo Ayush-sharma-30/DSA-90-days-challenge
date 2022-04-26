@@ -122,6 +122,9 @@ Completed next 5 questions of linked list from love babbar sheet(158-161).
 Day-32:
 Completed first 5 questions of binary tree from love babbar sheet(162-167).
 
+Day-33:
+Completed first 5 questions of binary tree from love babbar sheet(168-172).
+
 
 
 
