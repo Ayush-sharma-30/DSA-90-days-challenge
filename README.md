@@ -126,6 +126,10 @@ Day-33:
 Completed first 5 questions of binary tree from love babbar sheet(168-172).
 
 
+Day-34:
+Completed first 5 questions of binary tree from love babbar sheet(173-177).
+
+
 
 
 
